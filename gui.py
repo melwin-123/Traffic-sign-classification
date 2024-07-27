@@ -7,7 +7,7 @@ import numpy
 #load the trained model to classify sign
 from keras.models import load_model
 model = load_model('traffic_classifier.h5')
-
+# hghghg
 #dictionary to label all traffic signs class.
 classes = { 1:'Speed limit (20km/h)',
             2:'Speed limit (30km/h)',      
